@@ -5,11 +5,11 @@ amount = 1
 totalAmount = 0
 
 # Instructions for the user
-print("Input your sales amounts. After entering all of your purchases, enter 0 to get your sales total, sales tax, and grand total.")
+print("Input your sales amounts. After entering all of your purchases, enter 0 to get your sales total, sales tax, and grand total.\n")
 
 # this code will continue to loop until the user enters the value 0
 while amount != 0:
-    strCost = raw_input("Please enter the sales amount of your item: ")
+    strCost = raw_input("Please enter the amount of your item: ")
     # the raw input is moved to the variable cost after changed from string type
     amount = float(strCost)
     # the following code accumulates all costs into the total variable
